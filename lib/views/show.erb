@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>les potins</title>
+  </head>
+  <body>
+
+  <% gossips.each do |gossip| %>
+    <p> Voici le potin n° <%= id%><br/>
+    Son auteur : <%= gossip.gossip_author %><br/>
+    Le contenu du potin : <%= gossip.gossip_content %>
+    <% end %>
+  </body>
+</html>
